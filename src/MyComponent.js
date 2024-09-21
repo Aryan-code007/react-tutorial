@@ -1,17 +1,20 @@
 import './SubscribeForm.css';
-import React from 'react'
-
+import React from 'react';
 
 const MyComponent = () => {
   return (
-    <div className="body">
-      <h2>SUBSCRIBE</h2>
-      <p>Sign up with your email address to receive news and updates.</p>
+    <div className="subscribe-container">
+      <h2 className="subscribe-title">SUBSCRIBE</h2>
+      <p className="subscribe-text">
+        Sign up with your email address to receive news and updates.
+      </p>
       <form className="subscribe-form">
-        <input type="text" placeholder="First name" />
-        <input type="text" placeholder="Last name" />
-        <input type="email" placeholder="Email" /> <br></br>
-        <button type="submit">Subscribe</button>
+        <input type="text" placeholder="First name" className="input-field" />
+        <input type="text" placeholder="Last name" className="input-field" />
+        <input type="email" placeholder="Email" className="input-field" />
+        <button type="submit" className="subscribe-button">
+          Subscribe
+        </button>
       </form>
     </div>
   );
