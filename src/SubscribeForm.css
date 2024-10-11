@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #b3e5fc; /* Light blue background */
+  background-color: #b3e5fc; 
 }
 
 .subscribe-title {
@@ -39,7 +39,7 @@ body {
 .subscribe-button {
   width: 310px;
   padding: 10px;
-  background-color: #ff6f61; /* Coral button */
+  background-color: #ff6f61;
   color: white;
   border: none;
   border-radius: 5px;

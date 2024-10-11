@@ -12,6 +12,7 @@ const MyComponent = () => {
         <input type="text" placeholder="First name" className="input-field" />
         <input type="text" placeholder="Last name" className="input-field" />
         <input type="email" placeholder="Email" className="input-field" />
+        <input type="number" placeholder="Phone" className="input-field" name="number"/>
         <button type="submit" className="subscribe-button">
           Subscribe
         </button>
@@ -20,4 +21,4 @@ const MyComponent = () => {
   );
 };
 
-export default MyComponent;
+export default MyComponent; 
